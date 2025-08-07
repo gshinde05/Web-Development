@@ -1,0 +1,72 @@
+<!doctype html>
+<html> 
+ <head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title> Login Page </title> 
+  <style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+}  
+button {   
+        background-color: orangered;   
+        width: 50%;  
+        color: white;   
+        padding: 15px;   
+        margin: 20px 10px;
+        border-radius: 5px;   
+        border: none;   
+        cursor: pointer; 
+ }   
+ form {   
+       /* border: 3px solid #f1f1f1; */
+        margin-left: 80px;
+        margin-right: 80px;   
+    }   
+ input[type=text], input[type=password] 
+ {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+ .container {   
+        padding: 25px;   
+        background-color: whitesmoke; 
+        margin-top: 100px;
+        margin-left: 450px;
+        margin-right: 450px; 
+        margin-bottom: 100px;
+        border-radius: 10px;
+        border: red;
+        box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+    }   
+</style> 
+ </head> 
+ <body> 
+  <form> 
+   <div class="container">
+    <header>
+      <h1 align="center">User Login</h1>
+    </header>
+   <label><b>Username : </b></label> 
+   <br>
+    <input type="text" placeholder="Enter Username" name="username" required>
+    <br><br>
+    <label><b>Password : </b></label> 
+    <br>
+    <input type="password" placeholder="Enter Password" name="password" required>
+    <br><br>
+    <div align="center">
+    <button type="submit"><b>Login</b></button>
+    <br>
+    <input type="checkbox" checked>Remember me &nbsp&nbsp <a href="#">forgot password? </a>
+    <label><h6>Dont have account?</label><a href="registration.html">sign up</a></h6>
+    </div>
+   </div> 
+  </form> 
+ </body>
+</html>
